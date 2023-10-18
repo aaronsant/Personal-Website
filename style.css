@@ -1,0 +1,33 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #5166a1, #0d1149);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  #title{
+    background-image: url('./images/background.png');
+    background-position: center;
+    color: whitesmoke;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 3px;
+
+  }
+
+  .navbar-brand{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 750;
+    letter-spacing: 3px; 
+    font-size: xx-large;
+  }
+
+  .nav-item{
+    font-size: small;
+  }
+
+  #headshot{
+    border-radius: 50%;
+  }
+
+  .icon{
+    filter: invert(1);
+  }

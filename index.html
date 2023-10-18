@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Sant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+<body data-bs-theme="dark">
+    <section class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary border" >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">AS</a>
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-0 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#title">HOME</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#bio">ABOUT</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#projects">PROJECTS</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#resume">RESUME</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#contact">CONTACT</a>
+                  </li>
+                </ul>
+              
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <section id="title" class="pb-5" >
+        <div class="px-4 py-5 text-left container">
+            <h1 class="display-1 fw-bold text-body-emphasis" >AARON SANT</h1>
+            <div class="d-flex justify-content-start"> 
+                <h3 class="fst-italic fs-4">
+                    Engineer. <br>
+                    Developer. <br>
+                    Problem Solver.  
+                </h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="bio">
+        <div class="container col-xxl-8 px-4 pt-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-12 col-lg-6 d-flex justify-content-center">
+                <img src="./images/headshot.jpg" class="d-block mx-lg-auto img-fluid" id="headshot" alt="Headshot" width="300" height="300" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Welcome!</h2>
+                <p class="lead">I'm a recent graduate from Queen's University and aspiring software developer currently living in Toronto, ON. I'm excited to dive into the world of tech and build software that solve real-world problems and make a positive impact. I have a broad technical background that covers Computer Science, Mechanical Engineering and Applied Mathematics and I am always looking to continue learning and take on new challenges!</p>
+            </div>
+            </div>
+          </div>
+    </section>
+
+    <section id="projects">
+        <div class="container px-4 py-5" id="icon-grid">
+            <h2 class="pb-2 ">My Projects</h2>
+            <p class="lead"> I have worked on a variety of different projects during my studies and independently. Check out some of the cool work I have done below and be sure to check back as I add more interesting projects!</p>
+            <hr>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-4 py-5">
+              <div class="col d-flex align-items-start">
+                <img src="./images/icons8-blogging-64.png" alt="Blog Icon" height="30" width="30" class="mx-2 icon">
+                <div>
+                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Full Stack Blogging Application</h3>
+                  <p>Created a blogging web app using Python and Flask. The app allowed users to create their own account and create, update and delete blog posts. SQLAlchemy was used to create a SQLite database to store data for the blog posts as well as user data. The app featured a responsive front end design created using the Bootstrap framework with HTML and CSS.  </p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <img src="./images/icons8-fish-50.png" alt="Fish Icon" height="30" width="30" class="mx-2 icon">
+               <div>
+                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Propulsion and Control System Design for Mobile Aquaculture Cage</h3>
+                  <p>My University capstone project. Tasked with addressing issues of health concerns regarding stationary aquaculture farms, we designed a concept for a mobile aquaculture cage. Developed a model of the dynamics of an immersed aquaculture cage which was implemented into MATLAB and Simulink to simulate dynamic behaviour. A PID control system was then implemented into the model and tuned to evaluate the feasibility and effectiveness of a generalized control system for a mobile aquaculture cag.</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <img src="./images/icons8-robot-32.png" alt="Robot Icon" height="30" width="30" class="mx-2 icon">
+                <div>
+                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Neutralizing a Light Source with a Programmable Robot</h3>
+                  <p>Using Arduino, programmed a LynxBot mobile robot with a mounted Arduino microcontroller board to follow a wall, scan room to locate a randomly placed light source, and then approach and block the light source. This was done by integrating a Sharp infrared sensor to develop a wall following algorithm using a PID control system. A photoresistor and servo motor was integrated to scan the room and locate light source.  </p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <img src="./images/icons8-remote-50.png" alt="Remote Icon" height="30" width="30" class="mx-2 icon">
+                <div>
+                  <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Reverse Engineering a Blackbox System with Control System Design</h3>
+                  <p>The purpose of this project was to develop a controller for a black box system. To do this, we developed a heuristic transfer function to model the input/output behaviour of the system. This was done using MATLAB to evalauate the system for LTI and white noise properties, and evaluating the systems frequency response with filtered output to construct a Bode plot, which allowed us to estimate the transfer function. This was then implemented into Simulink in a closed loop control system and a PID controller was designed to meet provided metrics in steady state error, rise time, overshoot, and settling time. </p>
+
+                </div>
+              </div>
+            </div>
+            <hr>
+          </div>
+    </section>
+
+    <section id="resume">
+        <div class="container d-flex justify-content-center">
+            <a href="https://aaronsant.github.io/html-resume/"><button type="button" class="btn btn-outline-primary">Check out my online resume</button></a>
+        </div>
+        
+    </section>
+
+    <section id="contact">
+        <div class="container my-5">
+              <h2 class="text-body-emphasis">Get in touch!</h2>
+              <p class="lead">
+                If you want to get in touch or talk about anything please don't hesitate to reach out!
+              </p>
+              <div class="container d-flex justify-content-center">
+                <a href="mailto: aaron.sant22@gmail.com"><button type="button" class="btn btn-outline-primary">Contact Me!</button></a>
+            </div> 
+          </div>
+    </section>
+
+    <section id="foot">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Aaron Sant</span>
+              </div>
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="https://github.com/aaronsant"><img class="icon" src="./images/icons8-github.svg" alt="Github icon" width="30" height="30"></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/aaron-sant"><img class="icon" src="./images/icons8-linkedin.svg" alt="LinkedIn icon" width="30" height="30"></a></li>
+              </ul>
+            </footer>
+          </div>
+    </section>
+
+</body>
+</html>
